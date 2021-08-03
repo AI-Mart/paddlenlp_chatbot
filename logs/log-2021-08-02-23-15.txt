@@ -1,0 +1,26 @@
+2021-08-02 23:15:19,875 - HostiePuppet - INFO - init puppet
+2021-08-02 23:15:19,875 - HostiePuppet - INFO - There is no endpoint in cache, trying to fetch endpoint with token.
+2021-08-02 23:16:42,009 - HostiePuppet - INFO - stop()
+2021-08-02 23:16:42,017 - HostiePuppet - INFO - init puppet
+2021-08-02 23:16:42,017 - HostiePuppet - INFO - There is no endpoint in cache, trying to fetch endpoint with token.
+2021-08-02 23:16:45,086 - HostiePuppet - DEBUG - get puppet ip address : <{'host': '39.105.221.224', 'ip': '39.105.221.224', 'port': 8080}>
+2021-08-02 23:16:45,094 - HostiePuppet - INFO - starting the puppet ...
+2021-08-02 23:16:49,713 - HostiePuppet - INFO - puppet has started ...
+2021-08-02 23:16:49,721 - HostiePuppet - INFO - listening the event from the puppet ...
+2021-08-02 23:16:49,763 - HostiePuppet - DEBUG - receive login info <{'contactId': '@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266'}>
+2021-08-02 23:17:04,552 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-02 23:17:09,272 - HostiePuppet - DEBUG - receive message info <{'messageId': '2227523273250129933'}>
+2021-08-02 23:17:14,784 - HostiePuppet - DEBUG - receive message info <{'messageId': '16279174342950980'}>
+2021-08-02 23:17:19,406 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-02 23:17:21,550 - HostiePuppet - DEBUG - receive message info <{'messageId': '8141297529367064901'}>
+2021-08-02 23:17:27,962 - HostiePuppet - DEBUG - receive message info <{'messageId': '16279174474710988'}>
+2021-08-02 23:17:34,462 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-02 23:17:44,701 - HostiePuppet - DEBUG - receive message info <{'messageId': '816402732327829571'}>
+2021-08-02 23:17:52,519 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-02 23:17:52,578 - HostiePuppet - DEBUG - receive message info <{'messageId': '16279174720910432'}>
+2021-08-02 23:18:04,352 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-02 23:18:07,126 - HostiePuppet - DEBUG - receive message info <{'messageId': '5186130816851207498'}>
+2021-08-02 23:18:21,678 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-02 23:18:22,283 - HostiePuppet - DEBUG - receive message info <{'messageId': '16279175016650571'}>
+2021-08-02 23:18:34,468 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-02 23:18:49,548 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>

@@ -1,0 +1,386 @@
+2021-08-02 23:38:17,946 - Wechaty - INFO - on() listen event <scan> with <<function on_scan at 0x000002481F6EF708>>
+2021-08-02 23:38:17,946 - Wechaty - DEBUG - emit() event <['scan', '<function on_scan at 0x000002481F6EF708>']> <{}>
+2021-08-02 23:38:17,946 - Wechaty - INFO - on() listen event <login> with <<function on_login at 0x000002481F6EF798>>
+2021-08-02 23:38:17,946 - Wechaty - DEBUG - emit() event <['login', '<function on_login at 0x000002481F6EF798>']> <{}>
+2021-08-02 23:38:17,946 - Wechaty - INFO - on() listen event <message> with <<function on_message at 0x000002481F6EF678>>
+2021-08-02 23:38:17,946 - Wechaty - DEBUG - emit() event <['message', '<function on_message at 0x000002481F6EF678>']> <{}>
+2021-08-02 23:38:18,075 - Wechaty - INFO - init_puppet_event_bridge() <<wechaty_puppet_service.puppet.PuppetService object at 0x0000024873E8B208>>
+2021-08-02 23:38:18,075 - Wechaty - INFO - initPuppetEventBridge() puppet.on(dong) (listenerCount:1) registering...
+2021-08-02 23:38:18,075 - Wechaty - INFO - initPuppetEventBridge() puppet.on(error) (listenerCount:1) registering...
+2021-08-02 23:38:18,075 - Wechaty - INFO - initPuppetEventBridge() puppet.on(heart-beat) (listenerCount:1) registering...
+2021-08-02 23:38:18,075 - Wechaty - INFO - initPuppetEventBridge() puppet.on(ready) (listenerCount:1) registering...
+2021-08-02 23:38:18,075 - Wechaty - INFO - receive <reset> event <%s>
+2021-08-02 23:38:18,075 - Wechaty - INFO - initPuppetEventBridge() puppet.on(reset) (listenerCount:0) registering...
+2021-08-02 23:38:18,075 - Wechaty - INFO - initPuppetEventBridge() puppet.on(friendship) (listenerCount:1) registering...
+2021-08-02 23:38:18,075 - Wechaty - INFO - initPuppetEventBridge() puppet.on(login) (listenerCount:1) registering...
+2021-08-02 23:38:18,075 - Wechaty - INFO - initPuppetEventBridge() puppet.on(logout) (listenerCount:1) registering...
+2021-08-02 23:38:18,075 - Wechaty - INFO - initPuppetEventBridge() puppet.on(message) (listenerCount:1) registering...
+2021-08-02 23:38:18,075 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-invite) (listenerCount:1) registering...
+2021-08-02 23:38:18,075 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-join) (listenerCount:1) registering...
+2021-08-02 23:38:18,075 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-leave) (listenerCount:1) registering...
+2021-08-02 23:38:18,079 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-topic) (listenerCount:1) registering...
+2021-08-02 23:38:18,079 - Wechaty - INFO - initPuppetEventBridge() puppet.on(scan) (listenerCount:1) registering...
+2021-08-02 23:38:18,079 - Wechaty - INFO - starting puppet ...
+2021-08-02 23:38:40,119 - wechaty.plugin - INFO - init the plugins ...
+2021-08-02 23:38:40,120 - Wechaty - INFO - receive <login> event <EventLoginPayload(contact_id='@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266')>
+2021-08-02 23:38:40,183 - Contact - INFO - load contact <Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>>
+2021-08-02 23:38:40,188 - Wechaty - DEBUG - emit() event <['Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>']> <{}>
+2021-08-02 23:39:13,423 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='7744369422931208319', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:39:13,423 - Message - DEBUG - Message ready <Message <7744369422931208319> is not ready>
+2021-08-02 23:39:13,554 - Contact - INFO - load contact <Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>>
+2021-08-02 23:39:14,779 - Contact - INFO - load contact <Contact <@37a4bbf4d41440e7353804e301ee1c6adc121c9c473a5d64acafbd68ed98a29b> <早安>>
+2021-08-02 23:39:14,779 - Wechaty - INFO - receive message <Message#message_type_audio[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]>
+2021-08-02 23:39:14,780 - Wechaty - DEBUG - emit() event <['Message#message_type_audio[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]']> <{}>
+2021-08-02 23:39:14,780 - Message - INFO - Message to FileBox
+2021-08-02 23:39:32,047 - Message - INFO - say() <<wechaty_puppet.file_box.file_box.FileBox object at 0x0000024820D5E308>>
+2021-08-02 23:39:32,052 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1128262146040124085', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:39:32,052 - Message - DEBUG - Message ready <Message <1128262146040124085> is not ready>
+2021-08-02 23:39:32,143 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	[Send an emoji, view it on mobile]>
+2021-08-02 23:39:32,143 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t[Send an emoji, view it on mobile]']> <{}>
+2021-08-02 23:39:41,153 - Message - INFO - say() <你女儿多大啦?>
+2021-08-02 23:39:41,161 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:39:41,161 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279187720290541', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:39:41,161 - Message - DEBUG - Message ready <Message <16279187720290541> is not ready>
+2021-08-02 23:39:41,208 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:39:41,226 - Wechaty - INFO - receive message <Message#message_type_attachment[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]>
+2021-08-02 23:39:41,227 - Wechaty - DEBUG - emit() event <['Message#message_type_attachment[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]']> <{}>
+2021-08-02 23:39:41,228 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:39:41,229 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279187807320505', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:39:41,229 - Message - DEBUG - Message ready <Message <16279187807320505> is not ready>
+2021-08-02 23:39:41,267 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:39:41,277 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	你女儿多大啦?>
+2021-08-02 23:39:41,277 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t你女儿多大啦?']> <{}>
+2021-08-02 23:39:54,979 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1999018856376978871', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:39:54,980 - Message - DEBUG - Message ready <Message <1999018856376978871> is not ready>
+2021-08-02 23:39:55,028 - Wechaty - INFO - receive message <Message#message_type_audio[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]>
+2021-08-02 23:39:55,028 - Wechaty - DEBUG - emit() event <['Message#message_type_audio[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]']> <{}>
+2021-08-02 23:39:55,028 - Message - INFO - Message to FileBox
+2021-08-02 23:40:11,365 - Message - INFO - say() <<wechaty_puppet.file_box.file_box.FileBox object at 0x0000024873ECC8C8>>
+2021-08-02 23:40:11,368 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='4658711127973770292', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:40:11,368 - Message - DEBUG - Message ready <Message <4658711127973770292> is not ready>
+2021-08-02 23:40:11,480 - Wechaty - INFO - receive message <Message#message_type_audio[🗣 Contact <@37a4bbf4d41440e7353804e301ee1c6adc121c9c473a5d64acafbd68ed98a29b> <早安>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]>
+2021-08-02 23:40:11,480 - Wechaty - DEBUG - emit() event <['Message#message_type_audio[🗣 Contact <@37a4bbf4d41440e7353804e301ee1c6adc121c9c473a5d64acafbd68ed98a29b> <早安>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]']> <{}>
+2021-08-02 23:40:11,480 - Message - INFO - Message to FileBox
+2021-08-02 23:40:27,135 - Message - INFO - say() <<wechaty_puppet.file_box.file_box.FileBox object at 0x000002482517B4C8>>
+2021-08-02 23:40:27,138 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:40:27,141 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279188112960107', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:40:27,141 - Message - DEBUG - Message ready <Message <16279188112960107> is not ready>
+2021-08-02 23:40:27,145 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='722976558011906994', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:40:27,145 - Message - DEBUG - Message ready <Message <722976558011906994> is not ready>
+2021-08-02 23:40:27,145 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='6187799961119416703', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:40:27,148 - Message - DEBUG - Message ready <Message <6187799961119416703> is not ready>
+2021-08-02 23:40:27,262 - Wechaty - INFO - receive message <Message#message_type_attachment[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]>
+2021-08-02 23:40:27,263 - Wechaty - DEBUG - emit() event <['Message#message_type_attachment[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]']> <{}>
+2021-08-02 23:40:27,263 - Wechaty - INFO - receive message <Message#message_type_audio[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]>
+2021-08-02 23:40:27,263 - Wechaty - DEBUG - emit() event <['Message#message_type_audio[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]']> <{}>
+2021-08-02 23:40:27,263 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@37a4bbf4d41440e7353804e301ee1c6adc121c9c473a5d64acafbd68ed98a29b> <早安>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	[Send an emoji, view it on mobile]>
+2021-08-02 23:40:27,263 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@37a4bbf4d41440e7353804e301ee1c6adc121c9c473a5d64acafbd68ed98a29b> <早安>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t[Send an emoji, view it on mobile]']> <{}>
+2021-08-02 23:40:27,263 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:40:27,269 - Message - INFO - Message to FileBox
+2021-08-02 23:40:38,953 - Message - INFO - say() <我看你朋友圈你已经结婚了吗?>
+2021-08-02 23:40:56,773 - Message - INFO - say() <<wechaty_puppet.file_box.file_box.FileBox object at 0x0000024820DCC588>>
+2021-08-02 23:40:56,776 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:40:56,776 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279188270810895', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:40:56,776 - Message - DEBUG - Message ready <Message <16279188270810895> is not ready>
+2021-08-02 23:40:56,784 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:40:56,784 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279188386010604', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:40:56,784 - Message - DEBUG - Message ready <Message <16279188386010604> is not ready>
+2021-08-02 23:40:56,919 - Wechaty - INFO - receive message <Message#message_type_attachment[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]>
+2021-08-02 23:40:56,919 - Wechaty - DEBUG - emit() event <['Message#message_type_attachment[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]']> <{}>
+2021-08-02 23:40:56,923 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:40:56,923 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	我看你朋友圈你已经结婚了吗?>
+2021-08-02 23:40:56,923 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t我看你朋友圈你已经结婚了吗?']> <{}>
+2021-08-02 23:40:56,923 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:40:57,237 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279188567210440', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:40:57,237 - Message - DEBUG - Message ready <Message <16279188567210440> is not ready>
+2021-08-02 23:40:57,243 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:40:57,288 - Wechaty - INFO - receive message <Message#message_type_attachment[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]>
+2021-08-02 23:40:57,288 - Wechaty - DEBUG - emit() event <['Message#message_type_attachment[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]']> <{}>
+2021-08-02 23:40:57,295 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:40:58,465 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='7046340961654792092', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:40:58,465 - Message - DEBUG - Message ready <Message <7046340961654792092> is not ready>
+2021-08-02 23:40:58,519 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@37a4bbf4d41440e7353804e301ee1c6adc121c9c473a5d64acafbd68ed98a29b> <早安>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	哚哚棒的语音不能转文字>
+2021-08-02 23:40:58,519 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@37a4bbf4d41440e7353804e301ee1c6adc121c9c473a5d64acafbd68ed98a29b> <早安>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t哚哚棒的语音不能转文字']> <{}>
+2021-08-02 23:41:08,746 - Message - INFO - say() <你是一个人住吗?>
+2021-08-02 23:41:08,750 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='7381400951527323023', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:41:08,750 - Message - DEBUG - Message ready <Message <7381400951527323023> is not ready>
+2021-08-02 23:41:08,820 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	[Send an emoji, view it on mobile]>
+2021-08-02 23:41:08,821 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t[Send an emoji, view it on mobile]']> <{}>
+2021-08-02 23:41:19,703 - Message - INFO - say() <你是一个人住吗?>
+2021-08-02 23:41:19,709 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:41:19,709 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279188683410998', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:41:19,709 - Message - DEBUG - Message ready <Message <16279188683410998> is not ready>
+2021-08-02 23:41:19,712 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='6938805225785122623', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:41:19,712 - Message - DEBUG - Message ready <Message <6938805225785122623> is not ready>
+2021-08-02 23:41:19,764 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	你是一个人住吗?>
+2021-08-02 23:41:19,764 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t你是一个人住吗?']> <{}>
+2021-08-02 23:41:19,764 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:41:19,769 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279188792810709', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:41:19,769 - Message - DEBUG - Message ready <Message <16279188792810709> is not ready>
+2021-08-02 23:41:19,772 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	是的>
+2021-08-02 23:41:19,773 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t是的']> <{}>
+2021-08-02 23:41:19,773 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:41:27,830 - Message - INFO - say() <那你有什么爱好吗?>
+2021-08-02 23:41:27,830 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	你是一个人住吗?>
+2021-08-02 23:41:27,830 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t你是一个人住吗?']> <{}>
+2021-08-02 23:41:27,835 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:41:27,835 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='6384998163788322016', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:41:27,835 - Message - DEBUG - Message ready <Message <6384998163788322016> is not ready>
+2021-08-02 23:41:27,956 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	不是微信形式的>
+2021-08-02 23:41:27,956 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t不是微信形式的']> <{}>
+2021-08-02 23:41:35,392 - Message - INFO - say() <那你是做什么工作的?>
+2021-08-02 23:41:35,396 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279188874740731', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:41:35,396 - Message - DEBUG - Message ready <Message <16279188874740731> is not ready>
+2021-08-02 23:41:35,398 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:41:35,400 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='5831531966738068449', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:41:35,400 - Message - DEBUG - Message ready <Message <5831531966738068449> is not ready>
+2021-08-02 23:41:35,448 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279188949710165', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:41:35,448 - Message - DEBUG - Message ready <Message <16279188949710165> is not ready>
+2021-08-02 23:41:35,454 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:41:35,466 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	那你有什么爱好吗?>
+2021-08-02 23:41:35,467 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t那你有什么爱好吗?']> <{}>
+2021-08-02 23:41:35,468 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	睡觉啦啦>
+2021-08-02 23:41:35,469 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t睡觉啦啦']> <{}>
+2021-08-02 23:41:35,469 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:41:42,261 - Message - INFO - say() <好吧,那我们下次再聊吧,我现在有点事>
+2021-08-02 23:41:42,263 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	那你是做什么工作的?>
+2021-08-02 23:41:42,263 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t那你是做什么工作的?']> <{}>
+2021-08-02 23:41:42,267 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:41:42,267 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='2925868021383711661', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:41:42,267 - Message - DEBUG - Message ready <Message <2925868021383711661> is not ready>
+2021-08-02 23:41:42,275 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='3969233104328996530', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:41:42,275 - Message - DEBUG - Message ready <Message <3969233104328996530> is not ready>
+2021-08-02 23:41:42,318 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	哚哚棒>
+2021-08-02 23:41:42,319 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t哚哚棒']> <{}>
+2021-08-02 23:41:49,804 - Message - INFO - say() <你是做什么工作的?>
+2021-08-02 23:41:49,807 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:41:49,807 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	晚安>
+2021-08-02 23:41:49,807 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t晚安']> <{}>
+2021-08-02 23:41:49,811 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279189018670327', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:41:49,811 - Message - DEBUG - Message ready <Message <16279189018670327> is not ready>
+2021-08-02 23:41:49,811 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='8680235175415796902', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:41:49,811 - Message - DEBUG - Message ready <Message <8680235175415796902> is not ready>
+2021-08-02 23:41:57,360 - Message - INFO - say() <好的,你是做什么工作的啊?>
+2021-08-02 23:41:57,364 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	好吧,那我们下次再聊吧,我现在有点事>
+2021-08-02 23:41:57,364 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t好吧,那我们下次再聊吧,我现在有点事']> <{}>
+2021-08-02 23:41:57,364 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	拜拜>
+2021-08-02 23:41:57,364 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t拜拜']> <{}>
+2021-08-02 23:41:57,364 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:41:57,369 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:42:03,538 - Message - INFO - say() <你是做什么工作的啊?>
+2021-08-02 23:42:03,539 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279189094330466', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:03,539 - Message - DEBUG - Message ready <Message <16279189094330466> is not ready>
+2021-08-02 23:42:03,541 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:42:03,544 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:42:03,545 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279189169410939', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:03,545 - Message - DEBUG - Message ready <Message <16279189169410939> is not ready>
+2021-08-02 23:42:03,545 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='6867368598568598997', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:03,545 - Message - DEBUG - Message ready <Message <6867368598568598997> is not ready>
+2021-08-02 23:42:03,548 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='4455357115602774548', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:03,549 - Message - DEBUG - Message ready <Message <4455357115602774548> is not ready>
+2021-08-02 23:42:03,598 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	你是做什么工作的?>
+2021-08-02 23:42:03,598 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t你是做什么工作的?']> <{}>
+2021-08-02 23:42:03,603 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:42:03,603 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279189231220945', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:03,603 - Message - DEBUG - Message ready <Message <16279189231220945> is not ready>
+2021-08-02 23:42:03,607 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	好的,你是做什么工作的啊?>
+2021-08-02 23:42:03,607 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t好的,你是做什么工作的啊?']> <{}>
+2021-08-02 23:42:03,613 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:42:03,615 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	再见>
+2021-08-02 23:42:03,616 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t再见']> <{}>
+2021-08-02 23:42:03,616 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	晚安>
+2021-08-02 23:42:03,616 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t晚安']> <{}>
+2021-08-02 23:42:09,895 - Message - INFO - say() <再见,你是做什么工作的啊?>
+2021-08-02 23:42:15,762 - Message - INFO - say() <你是做什么工作的啊?>
+2021-08-02 23:42:15,767 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	你是做什么工作的啊?>
+2021-08-02 23:42:15,767 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t你是做什么工作的啊?']> <{}>
+2021-08-02 23:42:15,771 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:42:15,771 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:42:15,775 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='770819946624885076', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:15,775 - Message - DEBUG - Message ready <Message <770819946624885076> is not ready>
+2021-08-02 23:42:15,775 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279189294860550', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:15,775 - Message - DEBUG - Message ready <Message <16279189294860550> is not ready>
+2021-08-02 23:42:15,775 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='7281437155671645576', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:15,775 - Message - DEBUG - Message ready <Message <7281437155671645576> is not ready>
+2021-08-02 23:42:15,780 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='2643851822689256430', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:15,780 - Message - DEBUG - Message ready <Message <2643851822689256430> is not ready>
+2021-08-02 23:42:15,873 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@37a4bbf4d41440e7353804e301ee1c6adc121c9c473a5d64acafbd68ed98a29b> <早安>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	晚安>
+2021-08-02 23:42:15,873 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@37a4bbf4d41440e7353804e301ee1c6adc121c9c473a5d64acafbd68ed98a29b> <早安>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t晚安']> <{}>
+2021-08-02 23:42:15,873 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	再见,你是做什么工作的啊?>
+2021-08-02 23:42:15,873 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t再见,你是做什么工作的啊?']> <{}>
+2021-08-02 23:42:15,878 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	我要睡觉了>
+2021-08-02 23:42:15,878 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t我要睡觉了']> <{}>
+2021-08-02 23:42:15,878 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:42:21,997 - Message - INFO - say() <你是做什么工作的啊?>
+2021-08-02 23:42:27,962 - Message - INFO - say() <我也睡了,你是做什么工作的啊?>
+2021-08-02 23:42:27,968 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:42:27,971 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	晚安好梦>
+2021-08-02 23:42:27,971 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t晚安好梦']> <{}>
+2021-08-02 23:42:27,972 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:42:27,972 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279189353960103', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:27,973 - Message - DEBUG - Message ready <Message <16279189353960103> is not ready>
+2021-08-02 23:42:27,974 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='8497348002316304362', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:27,974 - Message - DEBUG - Message ready <Message <8497348002316304362> is not ready>
+2021-08-02 23:42:27,975 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279189415910072', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:27,975 - Message - DEBUG - Message ready <Message <16279189415910072> is not ready>
+2021-08-02 23:42:27,976 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='8821393198121621568', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:27,976 - Message - DEBUG - Message ready <Message <8821393198121621568> is not ready>
+2021-08-02 23:42:27,976 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='9165722819675988999', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:27,976 - Message - DEBUG - Message ready <Message <9165722819675988999> is not ready>
+2021-08-02 23:42:36,696 - Message - INFO - say() <好的,你是做什么工作的啊?>
+2021-08-02 23:42:36,700 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	你是做什么工作的啊?>
+2021-08-02 23:42:36,700 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t你是做什么工作的啊?']> <{}>
+2021-08-02 23:42:36,704 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	么么哒>
+2021-08-02 23:42:36,704 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t么么哒']> <{}>
+2021-08-02 23:42:36,705 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:42:36,706 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	你是做什么工作的啊?>
+2021-08-02 23:42:36,706 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t你是做什么工作的啊?']> <{}>
+2021-08-02 23:42:36,706 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	么么么么>
+2021-08-02 23:42:36,706 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t么么么么']> <{}>
+2021-08-02 23:42:36,710 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	啵啵啵>
+2021-08-02 23:42:36,711 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t啵啵啵']> <{}>
+2021-08-02 23:42:36,711 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:42:36,712 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:42:43,833 - Message - INFO - say() <你是做什么工作的啊?>
+2021-08-02 23:42:43,833 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279189475860392', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:43,833 - Message - DEBUG - Message ready <Message <16279189475860392> is not ready>
+2021-08-02 23:42:43,837 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='3079176149266753777', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:43,837 - Message - DEBUG - Message ready <Message <3079176149266753777> is not ready>
+2021-08-02 23:42:51,497 - Message - INFO - say() <你是做什么工作的啊?>
+2021-08-02 23:42:58,229 - Message - INFO - say() <你是做什么工作的啊?>
+2021-08-02 23:42:58,235 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:42:58,239 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	我也睡了,你是做什么工作的啊?>
+2021-08-02 23:42:58,239 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t我也睡了,你是做什么工作的啊?']> <{}>
+2021-08-02 23:42:58,239 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	略略略>
+2021-08-02 23:42:58,239 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t略略略']> <{}>
+2021-08-02 23:42:58,239 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:42:58,243 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:42:58,244 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:42:58,246 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279189562760663', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:58,246 - Message - DEBUG - Message ready <Message <16279189562760663> is not ready>
+2021-08-02 23:42:58,246 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='9182404086190661847', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:58,248 - Message - DEBUG - Message ready <Message <9182404086190661847> is not ready>
+2021-08-02 23:42:58,249 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279189635140605', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:58,249 - Message - DEBUG - Message ready <Message <16279189635140605> is not ready>
+2021-08-02 23:42:58,250 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='6047034662619531468', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:58,250 - Message - DEBUG - Message ready <Message <6047034662619531468> is not ready>
+2021-08-02 23:42:58,251 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279189710710231', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:58,251 - Message - DEBUG - Message ready <Message <16279189710710231> is not ready>
+2021-08-02 23:42:58,252 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='6484785019779574042', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:42:58,254 - Message - DEBUG - Message ready <Message <6484785019779574042> is not ready>
+2021-08-02 23:43:06,715 - Message - INFO - say() <你是做什么工作的啊?>
+2021-08-02 23:43:06,721 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	好的,你是做什么工作的啊?>
+2021-08-02 23:43:06,725 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t好的,你是做什么工作的啊?']> <{}>
+2021-08-02 23:43:06,725 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]>
+2021-08-02 23:43:06,725 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]']> <{}>
+2021-08-02 23:43:06,725 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:43:06,730 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	你是做什么工作的啊?>
+2021-08-02 23:43:06,730 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t你是做什么工作的啊?']> <{}>
+2021-08-02 23:43:06,731 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@37a4bbf4d41440e7353804e301ee1c6adc121c9c473a5d64acafbd68ed98a29b> <早安>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	太蠢了>
+2021-08-02 23:43:06,731 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@37a4bbf4d41440e7353804e301ee1c6adc121c9c473a5d64acafbd68ed98a29b> <早安>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t太蠢了']> <{}>
+2021-08-02 23:43:06,732 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	你是做什么工作的啊?>
+2021-08-02 23:43:06,732 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t你是做什么工作的啊?']> <{}>
+2021-08-02 23:43:06,732 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	我是你哥>
+2021-08-02 23:43:06,732 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t我是你哥']> <{}>
+2021-08-02 23:43:06,732 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:43:06,736 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:43:06,745 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:43:06,746 - Message - INFO - Message to FileBox
+2021-08-02 23:43:06,748 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279189778670240', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:43:06,748 - Message - DEBUG - Message ready <Message <16279189778670240> is not ready>
+2021-08-02 23:43:06,748 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='4545145725348857392', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:43:06,748 - Message - DEBUG - Message ready <Message <4545145725348857392> is not ready>
+2021-08-02 23:43:06,752 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='7010008887946078709', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:43:06,752 - Message - DEBUG - Message ready <Message <7010008887946078709> is not ready>
+2021-08-02 23:43:13,465 - Message - INFO - say() <那你是做什么工作的啊?>
+2021-08-02 23:43:20,445 - Message - INFO - say() <那你是做什么工作的啊?>
+2021-08-02 23:43:20,453 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:43:20,455 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	你是做什么工作的啊?>
+2021-08-02 23:43:20,455 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t你是做什么工作的啊?']> <{}>
+2021-08-02 23:43:20,456 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	晚安>
+2021-08-02 23:43:20,456 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t晚安']> <{}>
+2021-08-02 23:43:20,456 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	再见>
+2021-08-02 23:43:20,456 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t再见']> <{}>
+2021-08-02 23:43:38,753 - Message - INFO - say() <<wechaty_puppet.file_box.file_box.FileBox object at 0x0000024873E40148>>
+2021-08-02 23:43:38,755 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:43:38,755 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:43:38,755 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279189863020840', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:43:38,755 - Message - DEBUG - Message ready <Message <16279189863020840> is not ready>
+2021-08-02 23:43:38,759 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279189930500477', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:43:38,759 - Message - DEBUG - Message ready <Message <16279189930500477> is not ready>
+2021-08-02 23:43:38,760 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='4172743961460063155', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:43:38,761 - Message - DEBUG - Message ready <Message <4172743961460063155> is not ready>
+2021-08-02 23:43:44,458 - Message - INFO - say() <我先不跟你聊了,我要去上班了>
+2021-08-02 23:43:51,060 - Message - INFO - say() <再见>
+2021-08-02 23:43:51,065 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:43:51,067 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	你是做什么工作的啊?>
+2021-08-02 23:43:51,067 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t你是做什么工作的啊?']> <{}>
+2021-08-02 23:43:51,068 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	那你是做什么工作的啊?>
+2021-08-02 23:43:51,068 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t那你是做什么工作的啊?']> <{}>
+2021-08-02 23:43:51,068 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	你是傻帽>
+2021-08-02 23:43:51,068 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t你是傻帽']> <{}>
+2021-08-02 23:43:51,068 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:43:51,070 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:43:51,071 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:43:51,072 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279190000520742', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:43:51,072 - Message - DEBUG - Message ready <Message <16279190000520742> is not ready>
+2021-08-02 23:43:51,072 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='2333490962101591375', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:43:51,073 - Message - DEBUG - Message ready <Message <2333490962101591375> is not ready>
+2021-08-02 23:43:51,073 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279190190060437', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:43:51,073 - Message - DEBUG - Message ready <Message <16279190190060437> is not ready>
+2021-08-02 23:43:51,074 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279190240320972', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:43:51,074 - Message - DEBUG - Message ready <Message <16279190240320972> is not ready>
+2021-08-02 23:43:51,075 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:43:55,277 - Message - INFO - say() <你才傻冒>
+2021-08-02 23:43:55,283 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	那你是做什么工作的啊?>
+2021-08-02 23:43:55,283 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t那你是做什么工作的啊?']> <{}>
+2021-08-02 23:43:55,284 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	傻逼>
+2021-08-02 23:43:55,284 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t傻逼']> <{}>
+2021-08-02 23:43:55,284 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]>
+2021-08-02 23:43:55,285 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]']> <{}>
+2021-08-02 23:43:55,285 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	我先不跟你聊了,我要去上班了>
+2021-08-02 23:43:55,285 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t我先不跟你聊了,我要去上班了']> <{}>
+2021-08-02 23:43:55,285 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:43:55,285 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:43:55,288 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:43:55,289 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:43:59,203 - Message - INFO - say() <你才傻冒>
+2021-08-02 23:43:59,203 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279190306910231', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:43:59,203 - Message - DEBUG - Message ready <Message <16279190306910231> is not ready>
+2021-08-02 23:43:59,207 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:43:59,209 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:43:59,211 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279190348510612', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:43:59,211 - Message - DEBUG - Message ready <Message <16279190348510612> is not ready>
+2021-08-02 23:43:59,211 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1449896417456737182', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:43:59,211 - Message - DEBUG - Message ready <Message <1449896417456737182> is not ready>
+2021-08-02 23:43:59,269 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	再见>
+2021-08-02 23:43:59,269 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t再见']> <{}>
+2021-08-02 23:43:59,269 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	你才傻冒>
+2021-08-02 23:43:59,269 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t你才傻冒']> <{}>
+2021-08-02 23:43:59,269 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	牛逼啊>
+2021-08-02 23:43:59,273 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t牛逼啊']> <{}>
+2021-08-02 23:43:59,273 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:44:05,718 - Message - INFO - say() <你才牛逼>
+2021-08-02 23:44:05,722 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:44:05,722 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279190387910395', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:44:05,722 - Message - DEBUG - Message ready <Message <16279190387910395> is not ready>
+2021-08-02 23:44:05,786 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:44:05,796 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	你才傻冒>
+2021-08-02 23:44:05,797 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t你才傻冒']> <{}>
+2021-08-02 23:44:05,797 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:44:05,800 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279190453120160', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:44:05,800 - Message - DEBUG - Message ready <Message <16279190453120160> is not ready>
+2021-08-02 23:44:05,845 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:44:05,866 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	你才牛逼>
+2021-08-02 23:44:05,866 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t你才牛逼']> <{}>
+2021-08-02 23:44:12,923 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='6473189584467767967', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:44:12,923 - Message - DEBUG - Message ready <Message <6473189584467767967> is not ready>
+2021-08-02 23:44:12,967 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	哈哈哈>
+2021-08-02 23:44:12,968 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t哈哈哈']> <{}>
+2021-08-02 23:44:18,235 - Message - INFO - say() <你才傻冒>
+2021-08-02 23:44:18,452 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-02 23:44:18,452 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279190579100566', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-02 23:44:18,456 - Message - DEBUG - Message ready <Message <16279190579100566> is not ready>
+2021-08-02 23:44:18,509 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-02 23:44:18,515 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]	你才傻冒>
+2021-08-02 23:44:18,515 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]\t你才傻冒']> <{}>

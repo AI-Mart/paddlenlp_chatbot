@@ -1,0 +1,205 @@
+2021-08-03 20:59:52,717 - Wechaty - INFO - on() listen event <scan> with <<function on_scan at 0x00000217002CF678>>
+2021-08-03 20:59:52,717 - Wechaty - DEBUG - emit() event <['scan', '<function on_scan at 0x00000217002CF678>']> <{}>
+2021-08-03 20:59:52,717 - Wechaty - INFO - on() listen event <login> with <<function on_login at 0x00000217002CF708>>
+2021-08-03 20:59:52,717 - Wechaty - DEBUG - emit() event <['login', '<function on_login at 0x00000217002CF708>']> <{}>
+2021-08-03 20:59:52,717 - Wechaty - INFO - on() listen event <message> with <<function on_message at 0x00000217002CF5E8>>
+2021-08-03 20:59:52,717 - Wechaty - DEBUG - emit() event <['message', '<function on_message at 0x00000217002CF5E8>']> <{}>
+2021-08-03 20:59:52,783 - Wechaty - INFO - init_puppet_event_bridge() <<wechaty_puppet_service.puppet.PuppetService object at 0x00000216AEFDB988>>
+2021-08-03 20:59:52,783 - Wechaty - INFO - initPuppetEventBridge() puppet.on(dong) (listenerCount:1) registering...
+2021-08-03 20:59:52,784 - Wechaty - INFO - initPuppetEventBridge() puppet.on(error) (listenerCount:1) registering...
+2021-08-03 20:59:52,784 - Wechaty - INFO - initPuppetEventBridge() puppet.on(heart-beat) (listenerCount:1) registering...
+2021-08-03 20:59:52,784 - Wechaty - INFO - initPuppetEventBridge() puppet.on(ready) (listenerCount:1) registering...
+2021-08-03 20:59:52,784 - Wechaty - INFO - receive <reset> event <%s>
+2021-08-03 20:59:52,784 - Wechaty - INFO - initPuppetEventBridge() puppet.on(reset) (listenerCount:0) registering...
+2021-08-03 20:59:52,784 - Wechaty - INFO - initPuppetEventBridge() puppet.on(friendship) (listenerCount:1) registering...
+2021-08-03 20:59:52,784 - Wechaty - INFO - initPuppetEventBridge() puppet.on(login) (listenerCount:1) registering...
+2021-08-03 20:59:52,784 - Wechaty - INFO - initPuppetEventBridge() puppet.on(logout) (listenerCount:1) registering...
+2021-08-03 20:59:52,784 - Wechaty - INFO - initPuppetEventBridge() puppet.on(message) (listenerCount:1) registering...
+2021-08-03 20:59:52,784 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-invite) (listenerCount:1) registering...
+2021-08-03 20:59:52,784 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-join) (listenerCount:1) registering...
+2021-08-03 20:59:52,784 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-leave) (listenerCount:1) registering...
+2021-08-03 20:59:52,785 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-topic) (listenerCount:1) registering...
+2021-08-03 20:59:52,785 - Wechaty - INFO - initPuppetEventBridge() puppet.on(scan) (listenerCount:1) registering...
+2021-08-03 20:59:52,785 - Wechaty - INFO - starting puppet ...
+2021-08-03 20:59:52,785 - HostiePuppet - INFO - init puppet
+2021-08-03 20:59:52,785 - HostiePuppet - INFO - There is no endpoint in cache, trying to fetch endpoint with token.
+2021-08-03 20:59:53,814 - HostiePuppet - DEBUG - get puppet ip address : <{'host': '39.105.221.224', 'ip': '39.105.221.224', 'port': 8080}>
+2021-08-03 20:59:53,816 - HostiePuppet - INFO - starting the puppet ...
+2021-08-03 20:59:55,837 - HostiePuppet - INFO - puppet has started ...
+2021-08-03 20:59:55,838 - HostiePuppet - INFO - listening the event from the puppet ...
+2021-08-03 20:59:55,863 - HostiePuppet - DEBUG - receive login info <{'contactId': '@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266'}>
+2021-08-03 20:59:55,863 - wechaty.plugin - INFO - init the plugins ...
+2021-08-03 20:59:55,863 - Wechaty - INFO - receive <login> event <EventLoginPayload(contact_id='@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266')>
+2021-08-03 20:59:55,880 - Contact - INFO - load contact <Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>>
+2021-08-03 20:59:55,881 - Wechaty - DEBUG - emit() event <['Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>']> <{}>
+2021-08-03 21:00:10,814 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:00:25,813 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:00:26,718 - HostiePuppet - DEBUG - receive message info <{'messageId': '4576607534421860815'}>
+2021-08-03 21:00:26,718 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='4576607534421860815', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:00:26,718 - Message - DEBUG - Message ready <Message <4576607534421860815> is not ready>
+2021-08-03 21:00:26,811 - Contact - INFO - load contact <Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>>
+2021-08-03 21:00:26,811 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>	你好>
+2021-08-03 21:00:26,811 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>\t你好']> <{}>
+2021-08-03 21:00:28,607 - Message - INFO - say() <你好啊,你在干什么啊?>
+2021-08-03 21:00:28,632 - HostiePuppet - DEBUG - receive message info <{'messageId': '16279956278050117'}>
+2021-08-03 21:00:28,632 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279956278050117', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:00:28,632 - Message - DEBUG - Message ready <Message <16279956278050117> is not ready>
+2021-08-03 21:00:28,633 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-03 21:00:28,652 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-03 21:00:28,741 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>	你好啊,你在干什么啊?>
+2021-08-03 21:00:28,742 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>\t你好啊,你在干什么啊?']> <{}>
+2021-08-03 21:00:40,817 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:00:45,075 - HostiePuppet - DEBUG - receive message info <{'messageId': '6575147228974193315'}>
+2021-08-03 21:00:45,076 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='6575147228974193315', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:00:45,076 - Message - DEBUG - Message ready <Message <6575147228974193315> is not ready>
+2021-08-03 21:00:45,136 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>	我在加班呢>
+2021-08-03 21:00:45,136 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>\t我在加班呢']> <{}>
+2021-08-03 21:00:47,389 - Message - INFO - say() <你是做什么工作的啊?>
+2021-08-03 21:00:47,410 - HostiePuppet - DEBUG - receive message info <{'messageId': '16279956465840846'}>
+2021-08-03 21:00:47,410 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279956465840846', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:00:47,411 - Message - DEBUG - Message ready <Message <16279956465840846> is not ready>
+2021-08-03 21:00:47,411 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-03 21:00:47,425 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-03 21:00:47,484 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>	你是做什么工作的啊?>
+2021-08-03 21:00:47,485 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>\t你是做什么工作的啊?']> <{}>
+2021-08-03 21:00:55,824 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:00:56,871 - HostiePuppet - DEBUG - receive message info <{'messageId': '4223861759684788298'}>
+2021-08-03 21:00:56,871 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='4223861759684788298', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:00:56,871 - Message - DEBUG - Message ready <Message <4223861759684788298> is not ready>
+2021-08-03 21:00:56,941 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>	我是一名程序员>
+2021-08-03 21:00:56,942 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>\t我是一名程序员']> <{}>
+2021-08-03 21:00:59,822 - Message - INFO - say() <程序员是不是很辛苦啊?>
+2021-08-03 21:00:59,843 - HostiePuppet - DEBUG - receive message info <{'messageId': '16279956590190495'}>
+2021-08-03 21:00:59,844 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279956590190495', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:00:59,844 - Message - DEBUG - Message ready <Message <16279956590190495> is not ready>
+2021-08-03 21:00:59,845 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-03 21:00:59,860 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-03 21:00:59,919 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>	程序员是不是很辛苦啊?>
+2021-08-03 21:00:59,920 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>\t程序员是不是很辛苦啊?']> <{}>
+2021-08-03 21:01:10,817 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:01:11,451 - HostiePuppet - DEBUG - receive message info <{'messageId': '7280372325614736516'}>
+2021-08-03 21:01:11,451 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='7280372325614736516', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:01:11,451 - Message - DEBUG - Message ready <Message <7280372325614736516> is not ready>
+2021-08-03 21:01:11,510 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>	是呢，很辛苦呢，天天加班>
+2021-08-03 21:01:11,511 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>\t是呢，很辛苦呢，天天加班']> <{}>
+2021-08-03 21:01:14,399 - Message - INFO - say() <那你有没有想过换一个工作呢?>
+2021-08-03 21:01:14,513 - HostiePuppet - DEBUG - receive message info <{'messageId': '16279956736880632'}>
+2021-08-03 21:01:14,513 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279956736880632', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:01:14,514 - Message - DEBUG - Message ready <Message <16279956736880632> is not ready>
+2021-08-03 21:01:14,514 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-03 21:01:14,529 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-03 21:01:14,586 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>	那你有没有想过换一个工作呢?>
+2021-08-03 21:01:14,587 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>\t那你有没有想过换一个工作呢?']> <{}>
+2021-08-03 21:01:25,820 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:01:34,266 - HostiePuppet - DEBUG - receive message info <{'messageId': '2903194178120107273'}>
+2021-08-03 21:01:34,267 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='2903194178120107273', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:01:34,267 - Message - DEBUG - Message ready <Message <2903194178120107273> is not ready>
+2021-08-03 21:01:34,318 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>	哈哈哈，暂时没想过呢，继续干着吧>
+2021-08-03 21:01:34,318 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>\t哈哈哈，暂时没想过呢，继续干着吧']> <{}>
+2021-08-03 21:01:38,691 - Message - INFO - say() <那你有想过找一个什么样的工作呢?>
+2021-08-03 21:01:38,710 - HostiePuppet - DEBUG - receive message info <{'messageId': '16279956978860944'}>
+2021-08-03 21:01:38,711 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279956978860944', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:01:38,711 - Message - DEBUG - Message ready <Message <16279956978860944> is not ready>
+2021-08-03 21:01:38,711 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-03 21:01:38,726 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-03 21:01:38,799 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>	那你有想过找一个什么样的工作呢?>
+2021-08-03 21:01:38,799 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>\t那你有想过找一个什么样的工作呢?']> <{}>
+2021-08-03 21:01:40,814 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:01:55,817 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:02:10,823 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:02:14,161 - HostiePuppet - DEBUG - receive message info <{'messageId': '6523065132296061046'}>
+2021-08-03 21:02:14,161 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='6523065132296061046', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:02:14,162 - Message - DEBUG - Message ready <Message <6523065132296061046> is not ready>
+2021-08-03 21:02:14,241 - Wechaty - INFO - receive message <Message#message_type_audio[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>>
+2021-08-03 21:02:14,241 - Wechaty - DEBUG - emit() event <['Message#message_type_audio[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>']> <{}>
+2021-08-03 21:02:14,241 - Message - INFO - Message to FileBox
+2021-08-03 21:02:22,327 - Message - INFO - say() <<wechaty_puppet.file_box.file_box.FileBox object at 0x0000021701912488>>
+2021-08-03 21:02:22,726 - HostiePuppet - DEBUG - receive message info <{'messageId': '16279957418990867'}>
+2021-08-03 21:02:22,727 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279957418990867', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:02:22,727 - Message - DEBUG - Message ready <Message <16279957418990867> is not ready>
+2021-08-03 21:02:22,728 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-03 21:02:22,742 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-03 21:02:22,809 - Wechaty - INFO - receive message <Message#message_type_attachment[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>>
+2021-08-03 21:02:22,809 - Wechaty - DEBUG - emit() event <['Message#message_type_attachment[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>']> <{}>
+2021-08-03 21:02:25,824 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:02:38,448 - HostiePuppet - DEBUG - receive message info <{'messageId': '4088583738986457182'}>
+2021-08-03 21:02:38,448 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='4088583738986457182', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:02:38,448 - Message - DEBUG - Message ready <Message <4088583738986457182> is not ready>
+2021-08-03 21:02:38,502 - Wechaty - INFO - receive message <Message#message_type_audio[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>>
+2021-08-03 21:02:38,502 - Wechaty - DEBUG - emit() event <['Message#message_type_audio[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>']> <{}>
+2021-08-03 21:02:38,502 - Message - INFO - Message to FileBox
+2021-08-03 21:02:45,233 - Message - INFO - say() <<wechaty_puppet.file_box.file_box.FileBox object at 0x000002170195AF08>>
+2021-08-03 21:02:45,234 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:02:45,559 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-03 21:02:45,560 - HostiePuppet - DEBUG - receive message info <{'messageId': '16279957647280944'}>
+2021-08-03 21:02:45,560 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279957647280944', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:02:45,560 - Message - DEBUG - Message ready <Message <16279957647280944> is not ready>
+2021-08-03 21:02:45,673 - Wechaty - INFO - receive message <Message#message_type_attachment[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>>
+2021-08-03 21:02:45,673 - Wechaty - DEBUG - emit() event <['Message#message_type_attachment[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>']> <{}>
+2021-08-03 21:02:45,674 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-03 21:02:55,823 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:02:57,411 - HostiePuppet - DEBUG - receive message info <{'messageId': '3489087823829404886'}>
+2021-08-03 21:02:57,412 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='3489087823829404886', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:02:57,412 - Message - DEBUG - Message ready <Message <3489087823829404886> is not ready>
+2021-08-03 21:02:57,478 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>>
+2021-08-03 21:02:57,478 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@444e500917569c62270926ab647ef93109d0ddbe796fe306754fdbf73f2c5603> <Roberta>']> <{}>
+2021-08-03 21:02:57,478 - Message - INFO - Message to FileBox
+2021-08-03 21:03:06,498 - Message - INFO - say() <<wechaty_puppet.file_box.file_box.FileBox object at 0x000002170050BF08>>
+2021-08-03 21:03:07,221 - HostiePuppet - DEBUG - receive message info <{'messageId': '16279957863960051'}>
+2021-08-03 21:03:07,221 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16279957863960051', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:03:07,221 - Message - DEBUG - Message ready <Message <16279957863960051> is not ready>
+2021-08-03 21:03:07,222 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-08-03 21:03:07,236 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-08-03 21:03:07,291 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>>
+2021-08-03 21:03:07,291 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>']> <{}>
+2021-08-03 21:03:10,822 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:03:25,820 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:03:40,820 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:03:55,821 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:04:10,817 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:04:25,830 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:04:40,824 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:04:55,832 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:05:10,818 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:05:25,828 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:05:40,818 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:05:55,832 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:06:10,824 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:06:25,834 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:06:40,818 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:06:55,823 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:07:10,818 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:07:25,829 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:07:26,977 - HostiePuppet - DEBUG - receive message info <{'messageId': '9072327294480842135'}>
+2021-08-03 21:07:26,977 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='9072327294480842135', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:07:26,978 - Message - DEBUG - Message ready <Message <9072327294480842135> is not ready>
+2021-08-03 21:07:28,292 - Contact - INFO - load contact <Contact <@37a4bbf4d41440e7353804e301ee1c6adc121c9c473a5d64acafbd68ed98a29b> <早安>>
+2021-08-03 21:07:28,292 - Wechaty - INFO - receive message <Message#message_type_video[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]>
+2021-08-03 21:07:28,292 - Wechaty - DEBUG - emit() event <['Message#message_type_video[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]']> <{}>
+2021-08-03 21:07:40,821 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:07:52,978 - HostiePuppet - DEBUG - receive message info <{'messageId': '7018455251106848558'}>
+2021-08-03 21:07:52,978 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='7018455251106848558', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:07:52,978 - Message - DEBUG - Message ready <Message <7018455251106848558> is not ready>
+2021-08-03 21:07:53,030 - Contact - INFO - load contact <Contact <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6> <哚儿那个哚>>
+2021-08-03 21:07:53,030 - Wechaty - INFO - receive message <Message#message_type_recalled[🗣 Contact <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6> <哚儿那个哚>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]>
+2021-08-03 21:07:53,030 - Wechaty - DEBUG - emit() event <['Message#message_type_recalled[🗣 Contact <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6> <哚儿那个哚>@👥 Room <@@2bcc2a94f1230ad242fd4fdaad7724d58dc7ae45e6804b455b76fe3c19fa04c6 - 哚儿那个哚>]']> <{}>
+2021-08-03 21:07:55,823 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:08:10,828 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:08:25,830 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:08:40,824 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:08:55,830 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:09:10,820 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:09:25,826 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:09:40,827 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:09:48,279 - HostiePuppet - DEBUG - receive message info <{'messageId': '4216117735419249308'}>
+2021-08-03 21:09:48,279 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='4216117735419249308', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-08-03 21:09:48,279 - Message - DEBUG - Message ready <Message <4216117735419249308> is not ready>
+2021-08-03 21:09:48,362 - Wechaty - INFO - receive message <Message#message_type_video[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>>
+2021-08-03 21:09:48,362 - Wechaty - DEBUG - emit() event <['Message#message_type_video[🗣 Contact <@0b4788d45ee3770bd2ebe02766c958dd11660d4aeeb407135ab93ff8601f2266> <小裕>']> <{}>
+2021-08-03 21:09:55,839 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:10:10,835 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:10:25,827 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:10:40,823 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:10:55,835 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:11:10,832 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-08-03 21:11:25,832 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
